@@ -17,13 +17,19 @@ public class Game {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private String title;
+	
 	@Column(name = "game_year")
 	private Integer year;
 	private String genre;
 	private String platforms;
 	private Double score;
 	private String imgUrl;
+	
+	@Column(columnDefinition = "TEXT")
 	private String shortDescription;
+	
+	// É necessário definir o tipo para que quando a JPA criar o banco crie como texto, e não como varchar 255, que não teria espaço suficiente
+	@Column(columnDefinition = "TEXT")
 	private String longDescription;
 	
 	public Game() {
