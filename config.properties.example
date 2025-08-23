@@ -1,0 +1,6 @@
+Arquivo de exemplo de configuração do arquivo config.properties que deverá ser criado
+Copie esse arquivo para "src/main/resources/config/config.properties" e preencha as variáveis abaixo
+
+spring.datasource.url=
+spring.datasource.username=
+spring.datasource.password=
