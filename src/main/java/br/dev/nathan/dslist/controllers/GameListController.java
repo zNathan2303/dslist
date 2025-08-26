@@ -3,6 +3,7 @@ package br.dev.nathan.dslist.controllers;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PutMapping;
@@ -18,6 +19,7 @@ import br.dev.nathan.dslist.services.GameService;
 
 @RestController
 @RequestMapping(value = "lists")
+@CrossOrigin(origins = "http://127.0.0.1:5500")
 public class GameListController {
 	
 	@Autowired
