@@ -13,6 +13,7 @@
 - [API Endpoints](#api-endpoints)
 - [Configurando Perfis](#configurando-perfis)
 - [Integrando com Frontend](#integrando-com-frontend)
+- [Autor](#autor)
 - [Licença](#licença)
 
 ## Sobre o Projeto
@@ -21,7 +22,7 @@ Este repositório contém a API backend desenvolvida durante o **Intensivão de 
 ## Tecnologias Utilizadas
 - **Java 21:** Linguagem de programação.
 - **Spring Boot 3.5.4:** Framework para construção da aplicação.
-- **Maven** Gerenciador de dependências.
+- **Maven:** Gerenciador de dependências.
 - **Spring Data JPA:** Acesso simplificado a dados.
 - **PostgreSQL Database:** Banco de dados relacional (local e remoto).
 - **H2 Database:** Banco de dados em memória para testes.
@@ -124,6 +125,9 @@ git clone https://github.com/zNathan2303/frontend-game-list
 3. Inicie o projeto Frontend no VS Code com a extensão `Live Server`.
 
 Certifique-se de que o frontend esteja configurado para a porta 5500 ou ajuste as anotações `@CrossOrigin` nas classes do pacote controllers no backend conforme necessário.
+
+## Autor
+[Nathan da Silva Costa](<https://www.linkedin.com/in/nathandasilvacosta/>)
 
 ## Licença
 Este projeto está licenciado sob a [MIT License](https://opensource.org/license/MIT)
